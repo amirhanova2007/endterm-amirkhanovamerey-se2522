@@ -1,10 +1,4 @@
-
-Вот полностью готовый **README.md**, оформленный в одном блоке.
-Просто скопируй всё целиком 👇
-
----
-
-# 🏋️ Fitness Tracker API – Endterm Project
+ #Fitness Tracker API – Endterm Project
 
 ## Project Overview
 
