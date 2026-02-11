@@ -32,7 +32,7 @@ The application manages **Users** and their **Workouts** in a fitness tracking s
 
 The project follows a clean layered architecture:
 
-
+---
 src/main/java
  ├── controller
  ├── service
@@ -49,7 +49,7 @@ src/main/resources
 docs
  ├── screenshots
  └── uml.png
-
+---
 
 
 
