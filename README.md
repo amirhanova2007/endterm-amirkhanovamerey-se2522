@@ -14,7 +14,7 @@ It is a Spring Boot RESTful API that demonstrates:
 
 The application manages **Users** and their **Workouts** in a fitness tracking system.
 
----
+
 
 ## Technologies Used
 
@@ -26,13 +26,13 @@ The application manages **Users** and their **Workouts** in a fitness tracking s
 * Lombok
 * Postman
 
----
+
 
 ## Project Structure
 
 The project follows a clean layered architecture:
 
-```
+
 src/main/java
  ├── controller
  ├── service
@@ -49,9 +49,9 @@ src/main/resources
 docs
  ├── screenshots
  └── uml.png
-```
 
----
+
+
 
 ## Architecture
 
@@ -63,7 +63,7 @@ The project follows a **layered architecture**:
 * **Model Layer** – Entity classes
 * **Exception Layer** – Custom exceptions and global error handling
 
----
+
 
 ## Database
 
