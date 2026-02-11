@@ -77,17 +77,16 @@ User 1  ----  * Workout
 
 Each user can have multiple workouts.
 
----
 
 # REST API Endpoints
 
----
 
-# 🔵 USER ENDPOINTS
 
----
+#USER ENDPOINTS
 
-### ✅ Get all users
+
+
+### Get all users
 
 GET
 
@@ -95,19 +94,18 @@ GET
 http://localhost:8080/users
 ```
 
----
 
-### ✅ Get user by ID
+
+###  Get user by ID
 
 GET
-
 ```
 http://localhost:8080/users/{id}
 ```
 
----
 
-### ✅ Create user
+
+###  Create user
 
 POST
 
@@ -134,9 +132,9 @@ Response example:
 }
 ```
 
----
 
-### ✅ Update user
+
+###  Update user
 
 PUT
 
@@ -153,9 +151,9 @@ Body:
 }
 ```
 
----
 
-### ✅ Delete user
+
+### Delete user
 
 DELETE
 
@@ -165,13 +163,13 @@ http://localhost:8080/users/{id}
 
 No request body required.
 
----
 
-# 🟢 WORKOUT ENDPOINTS
 
----
+# WORKOUT ENDPOINTS
 
-### ✅ Get all workouts
+
+
+### Get all workouts
 
 GET
 
@@ -179,9 +177,9 @@ GET
 http://localhost:8080/workouts
 ```
 
----
 
-### ✅ Get workout by ID
+
+### Get workout by ID
 
 GET
 
@@ -189,9 +187,9 @@ GET
 http://localhost:8080/workouts/{id}
 ```
 
----
 
-### ✅ Create workout
+
+### Create workout
 
 POST
 
@@ -212,9 +210,8 @@ Body:
 }
 ```
 
----
 
-### ✅ Update workout
+### Update workout
 
 PUT
 
@@ -235,9 +232,9 @@ Body:
 }
 ```
 
----
 
-### ✅ Delete workout
+
+### Delete workout
 
 DELETE
 
@@ -247,23 +244,23 @@ http://localhost:8080/workouts/{id}
 
 No request body required.
 
----
+
 
 # Design Patterns Used
 
-### 1️⃣ Builder Pattern
+### Builder Pattern
 
 Used for flexible and readable object creation.
 
-### 2️⃣ Repository Pattern
+### Repository Pattern
 
 Used for database abstraction via Spring Data JPA.
 
-### 3️⃣ Service Layer Pattern
+### Service Layer Pattern
 
 Separates business logic from controller logic.
 
----
+
 
 # Exception Handling
 
@@ -277,7 +274,7 @@ The project includes:
   * 404 – Not Found
   * 500 – Internal Server Error
 
----
+
 
 # SOLID Principles Applied
 
@@ -287,7 +284,7 @@ The project includes:
 * **I** – Interface Segregation
 * **D** – Dependency Inversion (constructor injection with Lombok)
 
----
+
 
 # API Testing
 
@@ -298,7 +295,7 @@ Screenshots are stored in:
 docs/screenshots
 ```
 
----
+
 
 # H2 Console Access (Optional)
 
@@ -326,20 +323,19 @@ Password:
 (empty)
 ```
 
----
+
 
 # How to Run the Application
 
-1️⃣ Open the project in IntelliJ IDEA
-2️⃣ Load Maven dependencies
-3️⃣ Run `FitnessTrackerApplication`
-4️⃣ Open Postman or browser:
+Open the project in IntelliJ IDEA
+Load Maven dependencies
+Run `FitnessTrackerApplication`
+Open Postman or browser:
 
 ```
 http://localhost:8080
 ```
 
----
 
 # Author
 
